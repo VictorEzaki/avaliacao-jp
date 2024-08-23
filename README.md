@@ -5,14 +5,14 @@ Repositório da prova de git
 git --version
 Comando para verificar a versão do git instalado
 
-<!-- comandos de configurações de usuário -->
+<h2>comandos de configurações de usuário<h2>
 git config --global user.name "nomeExemp"
 Comando para configurar o nome do usuário
 
 git config --global user.email "exemp@gmail.com"
 Comando para atribuir o email ao usuário
 
-<!-- Configuração da chave SSH -->
+<h2>Configuração da chave SSH <h2>
 ls -al ~/.ssh
 Serve para verificar se uma chave SSH ja existe
 
@@ -37,7 +37,7 @@ ssh -T git@github.com
 E por último, podemos testar a conexão da chave com o comando acima, que em seguida irá perguntar se tem certeza da ação.
 apenas digite "yes"
 
-<!-- outros comandos Git -->
+<h2> outros comandos Git <h2>
 git clone
 Serve para clonar um repositório do github para vincular à sua máquina
 
