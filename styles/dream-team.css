@@ -1,0 +1,178 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+    font-family: "Oxygen", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-position: #2C2C2C;
+}
+
+main {
+    background-color: #D9D9D9;
+    display: flex;
+}
+
+.hero {
+    width: 69vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.hero_title {
+    font-size: 4rem;
+    margin-left: -14rem;
+}
+
+.hero_background {
+    width: 26rem;
+    height: 39rem;
+    position: absolute;
+    display: flex;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    margin-left: 20.5rem;
+    z-index: 1;
+}
+
+.hero_team {
+    position: relative;
+    z-index: 2;
+}
+
+.hero_positions {
+    position: fixed;
+}
+
+#pe {
+    margin-top: 10.5rem;
+    margin-left: 24.5rem;
+}
+
+#ca {
+    margin-top: 8rem;
+    margin-left: 31.5rem;
+}
+
+#pd {
+    margin-top: 10.5rem;
+    margin-left: 38rem;
+}
+
+#me {
+    margin-top: 18rem;
+    margin-left: 24.5rem;
+}
+
+#mc {
+    margin-top: 22rem;
+    margin-left: 31.5rem;
+}
+
+#md {
+    margin-top: 18rem;
+    margin-left: 38rem;
+}
+
+#le {
+    margin-top: 28rem;
+    margin-left: 22.8rem;
+}
+
+#zc1 {
+    margin-top: 31.5rem;
+    margin-left: 26rem;
+}
+
+#zc2 {
+    margin-top: 31.5rem;
+    margin-left: 35rem;
+}
+
+#ld {
+    margin-top: 28rem;
+    margin-left: 40rem;
+}
+
+#gol {
+    margin-top: 35.5rem;
+    margin-left: 31rem;
+}
+
+#tec {
+    margin-top: 38rem;
+    margin-left: 24rem;
+}
+
+.forms {
+    width: 31vw;
+    height: 100vh;
+    background-color: #03A64A;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    padding-top: 3rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form_add {
+    margin-left: 5rem;
+}
+
+.form_rm {
+    margin-left: 5rem;
+}
+
+.inputs {
+    width: 15rem;
+    height: 2rem;
+    border: #D9D9D9;
+    border-radius: 0.5rem;
+}
+
+button {
+    margin-left: 10rem;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 90%;
+}
+
+.escalar {
+    color: white;
+    width: 8rem;
+    height: 2rem;
+    border: #FF9500;
+    background-color: #FF9500;
+    border-radius: 0.5rem;
+}
+
+.remover {
+    color: white;
+    width: 8rem;
+    height: 2rem;
+    border: #FB3838;
+    background-color: #FB3838;
+    border-radius: 0.5rem;
+}
+
+footer {
+    width: 20rem;
+    height: 2rem;
+    margin-top: 37vh;
+    margin-left: 2rem;
+}
+
+.icon-home{
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}

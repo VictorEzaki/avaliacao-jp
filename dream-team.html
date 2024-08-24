@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Team</title>
+    <link rel="stylesheet" href="./styles/dream-team.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <a href="index.html">
+        <img src="./src/icon-home.webp" alt="ícone home" class="icon-home">
+    </a>
+    <main>
+        <section class="forms">
+            <h2 class="form_title">Escalar jogadores</h2><br>
+            <form class="form_add">
+                <label for="position">Posição</label><br>
+                <select class="inputs" name="position" id="position">
+                    <option value="pe">Ponta Esquerda</option>
+                    <option value="ca">Centro avante</option>
+                    <option value="pd">Ponta Direita</option>
+                    <option value="me">Meio Esquerda</option>
+                    <option value="mc">Meio campo</option>
+                    <option value="md">Meio Direita</option>
+                    <option value="le">Lateral Esquerda</option>
+                    <option value="zc1">Zagueiro1</option>
+                    <option value="zc2">Zagueiro2</option>
+                    <option value="ld">Lateral Direita</option>
+                    <option value="gol">Goleiro</option>
+                    <option value="tec">Técnico</option>
+                </select><br><br>
+                <label for="name">Nome do jogador</label><br>
+                <input class="inputs" type="text" id="name" autocomplete="on"><br><br>
+                <label for="number">Número da camisa</label><br>
+                <input class="inputs" type="text" id="number" autocomplete="on"><br><br>
+                <button type="button" class="escalar" onclick="escalar()">Escalar</button><br><br><br>
+            </form>
+
+            <h2 class="form_title">Remover Jogadores</h2><br>
+            <form class="form_rm">
+                <label for="position">Posição</label><br>
+                <select class="inputs" name="position" id="remove_position">
+                    <option value="pe">Ponta Esquerda</option>
+                    <option value="ca">Centro avante</option>
+                    <option value="pd">Ponta Direita</option>
+                    <option value="me">Meio Esquerda</option>
+                    <option value="mc">Meio campo</option>
+                    <option value="md">Meio Direita</option>
+                    <option value="le">Lateral Esquerda</option>
+                    <option value="zc1">Zagueiro1</option>
+                    <option value="zc2">Zagueiro2</option>
+                    <option value="ld">Lateral Direita</option>
+                    <option value="gol">Goleiro</option>
+                    <option value="tec">Técnico</option>
+                </select><br><br>
+                <label for="number">Número da camisa</label><br>
+                <input class="inputs" type="text" id="remove_number" autocomplete="on"><br><br>
+                <button type="button" class="remover" onclick="remover()">Remover</button>
+            </form>
+        </section>
+
+        <section class="hero">
+            <h1 class="hero_title">Dream Team</h1>
+            <img src="src/campo.png" alt="Desenho de um campo" class="hero_background">
+            <div class="hero_team">
+                <div class="hero_positions" id="pe"></div>
+                <div class="hero_positions" id="ca"></div>
+                <div class="hero_positions" id="pd"></div>
+                <div class="hero_positions" id="me"></div>
+                <div class="hero_positions" id="mc"></div>
+                <div class="hero_positions" id="md"></div>
+                <div class="hero_positions" id="le"></div>
+                <div class="hero_positions" id="zc1"></div>
+                <div class="hero_positions" id="zc2"></div>
+                <div class="hero_positions" id="ld"></div>
+                <div class="hero_positions" id="gol"></div>
+                <div class="hero_positions" id="tec"></div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
