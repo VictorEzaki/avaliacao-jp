@@ -1,0 +1,61 @@
+body{
+    background-image: linear-gradient(to right, #292D73, #26A6A6);
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 40rem;
+    height: auto;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.1);
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.header-title{
+    text-align: center;
+    font-size: 2.5rem;
+    border-bottom: 2px solid lightgray;
+}
+
+.title{
+    font-size: 1.5rem;
+    border-bottom: 2px solid lightgray;
+    width: 12rem;
+}
+
+.icon-home{
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.list{
+    list-style: none;
+    margin-left: 2rem;
+}
+
+#list-title{
+    list-style: disc;
+    margin-left: 0;
+    padding: 1rem;
+    font-weight: bold;
+}
